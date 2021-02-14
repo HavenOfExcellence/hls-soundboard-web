@@ -10,7 +10,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'The Holt soundboard, with sounds for Captain Raymond Holt, Terry Jeffords, Jake Peralta, and Charles Boyle from the show Brooklyn 99. Available sounds: 100+. IOS, Android, Windows 10, Online, web, app. Completely ad-free, install as a web APK on Android or add to homescreen on IOS for iphone' }
+      { hid: 'description', name: 'description', content: 'The HLS soundboard, with sounds for running and stuffs. Available sounds: 100+. IOS, Android, Windows 10, Online, web, app. Completely ad-free, install as a web APK on Android or add to homescreen on IOS for iphone' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -52,13 +52,13 @@ export default {
 
       theme_color: "#10213c",
 
-      ogSiteName: "Holt Soundboard",
-      ogTitle: "Holt Soundboard",
-      ogDescription: "The Holt soundboard, with sounds for Captain Raymond Holt, Terry Jeffords, Jake Peralta, and Charles Boyle from the show Brooklyn 99. Available sounds: 100+. IOS, Android, Windows 10, Online, web, app. Completely ad-free, install as a web APK on Android or add to homescreen on IOS for iphone",
+      ogSiteName: "HLS Soundboard",
+      ogTitle: "HLS Soundboard",
+      ogDescription: "The HLS soundboard, with sounds for running and stuffs. Available sounds: 100+. IOS, Android, Windows 10, Online, web, app. Completely ad-free, install as a web APK on Android or add to homescreen on IOS for iphone",
     },
     manifest: {
-      name: "Holt Soundboard",
-      short_name: "Holt Soundboard",
+      name: "HLS Soundboard",
+      short_name: "HLS Soundboard",
       lang: "en",
       background_color: "#10213c",
       theme_color: "#10213c",

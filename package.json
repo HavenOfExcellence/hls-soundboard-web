@@ -1,8 +1,8 @@
 {
-  "name": "holt-soundboard",
+  "name": "hls-soundboard",
   "version": "1.0.0",
-  "description": "The third redesign of Holt Soundboard for web",
-  "author": "themindstorm",
+  "description": "stolen code to use for HLS sounds",
+  "author": "themindstorm, francisyzy",
   "private": true,
   "scripts": {
     "dev": "nuxt",

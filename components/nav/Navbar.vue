@@ -4,7 +4,7 @@
       fa(v-if="mainPage" :icon="['fas', 'bars']" v-on:click="toggleDrawer()").drawer-icon
       nuxt-link(v-else to='/') 
         fa(:icon="['fas', 'arrow-left']" v-on:click="back()").drawer-icon
-      h1(v-if="mainPage") Holt Soundboard
+      h1(v-if="mainPage") HLS Soundboard
       h1(v-else) {{title}}
     div.right(v-on:click="toggleMenu()")
       fa(:icon="['fas', 'ellipsis-v']")

@@ -8,12 +8,6 @@
       fa(:icon="['fas', 'cogs']")
       span Force update
     hr
-    //- a.tile(target="_blank" href="https://play.google.com/store/apps/details?id=com.themindstorm.holt_soundboard&hl=en_US")
-    //-   fa(:icon="['fas', 'mobile-alt']")
-    //-   span Mobile app
-    a.tile(target="_blank" href="https://www.buymeacoffee.com/ninest")
-      fa(:icon="['fas', 'coffee']")
-      span Buy me a coffee
 </template>
 
 <script>

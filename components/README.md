@@ -6,9 +6,8 @@
 - Menu
 
 ## Soundboard
-- CharacterNav
 - Soundboard
 - SoundButton
 
 ## Other
-- Footter
+- Footer

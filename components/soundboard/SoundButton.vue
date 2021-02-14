@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  props: ["char", "fileName"],
+  props: ["fileName"],
   data: function() {
     return {
       soundName: this.fileName.split(".mp3")[0]
@@ -71,7 +71,7 @@ export default {
   },
   methods: {
     playSound() {
-      let file = `/sounds/${this.char}/${this.fileName}`
+      let file = `/sounds/${this.fileName}`
       // fileName has .mp3 at the end
       console.log(file)
       let sound = new Audio(file)

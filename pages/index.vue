@@ -10,7 +10,7 @@ export default {
   },
   head() {
     return {
-      title: "Holt Soundboard - Sounds of all the Brooklyn 99 characters"
+      title: "HLS Soundboard - Sound like running"
     }
   }
 }
