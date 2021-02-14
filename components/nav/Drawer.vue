@@ -3,19 +3,8 @@
   div.drawer(v-bind:class="{open: this.drawerOpen}" v-on:click="toggleDrawer()")
     fa(:icon="['fas', 'times']").close-drawer
 
-    //- TODO: make list for this
-    nuxt-link(to='/about').link 
-      span About
-    nuxt-link(to='/support').link 
-      span Support
-    nuxt-link(to='/suggest').link 
-      span Suggest
-    a(target="_blank" href='https://play.google.com/store/apps/details?id=com.themindstorm.holt_soundboard&hl=en_US').link
-      span App
-    a(target="_blank" href='https://github.com/holt-soundboard/holt-soundboard-web').link
+    a(target="_blank" href='https://github.com/HavenOfExcellence/hls-soundboard-web').link
       span GitHub
-    nuxt-link(to='/known_issues').link 
-      span Issues
 </template>
 
 <script>

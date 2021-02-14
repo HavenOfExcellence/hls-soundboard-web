@@ -5,7 +5,7 @@
         fa(:icon="['fas', 'arrow-up']")
         span Back to top
 
-      a(target="_blank" href='https://github.com/holt-soundboard/holt-soundboard-web').item
+      a(target="_blank" href='https://github.com/HavenOfExcellence/hls-soundboard-web').item
         fa(:icon="['fab', 'github']")
         span GitHub
 
@@ -29,42 +29,35 @@ export default {
           type: 'fab',
           icon: 'twitter',
           name: 'Twitter',
-          link: 'https://twitter.com/home?status=https%3A//holt-soundboard.github.io/%0ACheck it out, it has sounds of Captain Holt, Terry Jeffords, Charles Boyle, and Jake Peralta!',
+          link: 'https://twitter.com/home?status=https%3A//hls-app.now.sh/%0ACheck it out! It is some running app tracker thingy',
           color: '#38A1F3'
         },
         {
           type: 'fab',
           icon: 'reddit',
           name: 'Reddit',
-          link: 'https://www.reddit.com/submit?url=https%3A%2F%2Fholt-soundboard.github.io',
+          link: 'https://www.reddit.com/submit?url=https%3A%2F%2Fhls-app.now.sh',
           color: 'ff0700'
         },
         {
           type: 'fab',
           icon: 'whatsapp',
           name: 'WhatsApp',
-          link: 'https://api.whatsapp.com/send?text=https%3A//holt-soundboard.github.io/',
+          link: 'https://api.whatsapp.com/send?text=https%3A//hls-app.now.sh',
           color: '#00de65'
-        },
-        {
-          type: 'fab',
-          icon: 'pinterest',
-          name: 'Pinterest',
-          link: 'https://in.pinterest.com/themindstorm/holt-soundboardgithubio/',
-          color: '#fd0000'
         },
         {
           type: 'fas',
           icon: 'envelope',
           name: 'Mail',
-          link: 'mailto:?body=https://holt-soundboard.github.io/%0ACheck it out, it has sounds of Captain Holt, Terry Jeffords, Charles Boyle, and Jake Peralta!&subject=Check out this Holt Soundboard',
+          link: 'mailto:?body=https://hls-app.now.sh/%0ACheck it out! It is some running app tracker thingy&subject=Check out this HLS Soundboard',
           color: '#ffffff'
         },
         {
           type: 'fab',
           icon: 'facebook-square',
           name: 'Facebook',
-          link: 'https://www.facebook.com/sharer/sharer.php?u=https%3A//holt-soundboard.github.io/',
+          link: 'https://www.facebook.com/sharer/sharer.php?u=https%3A//hls-app.now.sh/',
           color: '#3b5998'
         },
       ]
@@ -79,8 +72,8 @@ export default {
       // otherwise show pre made links
       if (navigator.share) {
         navigator.share({
-          title: 'Holt Soundboard',
-          url: 'https://holt-soundboard.github.io'
+          title: 'HLS Soundboard',
+          url: 'https://hls-app.now.sh'
         })
       } else {
         console.log('no nav.share')

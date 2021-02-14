@@ -4,7 +4,7 @@
       fa(:icon="['fas', 'moon']")
       span Dark theme
     hr
-    a.tile(href="https://holt-soundboard.github.io/?update=forced")
+    a.tile(href="https://hls-app.now.sh/?update=forced")
       fa(:icon="['fas', 'cogs']")
       span Force update
     hr
