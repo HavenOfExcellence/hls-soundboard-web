@@ -23,7 +23,6 @@ export default {
 
 .soundboard {
   padding: var(--dense-padding);
-  background-color: var(--background-color);
   
   h2 {
     color: var(--text-color-dark);

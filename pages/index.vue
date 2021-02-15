@@ -14,8 +14,7 @@ export default {
     }
   }
 }
-</script>s
+</script>
 
 <style>
-
 </style>
