@@ -5,24 +5,27 @@
 </template>
 
 <script>
-import { sounds } from '~/contents/sounds.js'
-import SoundButton from '~/components/soundboard/SoundButton.vue'
+import { sounds } from "~/contents/sounds.js";
+import SoundButton from "~/components/soundboard/SoundButton.vue";
 
 export default {
   components: { SoundButton },
   data: function() {
     return {
       sounds: sounds,
-    }
+    };
   },
-}
+};
 </script>
 
 <style lang="scss" scoped>
-@import '~/layouts/styles/globals.scss';
+@import "~/layouts/styles/globals.scss";
 
 .soundboard {
-    h2 {
+  padding: var(--dense-padding);
+  background-color: var(--background-color);
+  
+  h2 {
     color: var(--text-color-dark);
     font-size: 1.5rem;
     @include phone-screen {
@@ -30,7 +33,7 @@ export default {
     }
     margin-bottom: calc(var(--dense-padding) * 0.5);
   }
-  .sounds { 
+  .sounds {
     display: grid;
     // 170px
     grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
