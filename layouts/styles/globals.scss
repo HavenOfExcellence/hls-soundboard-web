@@ -2,12 +2,12 @@ $phone: 500px;
 $smallphone: 365px;
 @mixin phone-screen {
   @media screen and (max-width: $phone) {
-    @content
+    @content;
   }
 }
 @mixin small-phone-screen {
   @media screen and (max-width: $smallphone) {
-    @content
+    @content;
   }
 }
 
@@ -26,7 +26,7 @@ html {
 
   --input-background-color: #eeefee;
 
-  &[data-theme='dark'] {
+  &[data-theme="dark"] {
     --nav-text-color: #cdcdcd;
 
     --text-color-bright: #00000f;
@@ -42,12 +42,11 @@ html {
   --yellow: #f5aa22;
   --red: #e94234;
   --dark: #222;
-  &[data-theme='dark'] {
+  &[data-theme="dark"] {
     --blue: #3264b4;
     --green: #387038;
     --yellow: #ad7917;
     --red: #97271d;
-
     --dark: #adadad;
   }
 
