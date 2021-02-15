@@ -1,9 +1,12 @@
-@import './styles/globals.scss';
+@import "./styles/globals.scss";
 
 html {
-  font-family: 'Rubik', -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
   font-size: 19px;
-  @include phone-screen {font-size: 17px}
+  @include phone-screen {
+    font-size: 17px;
+  }
 
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -16,14 +19,15 @@ html {
   -webkit-overflow-scrolling: touch;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
-   -khtml-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 * {
-  font-family: 'Rubik', -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
 }
 *,
 *:before,
@@ -41,15 +45,19 @@ button {
 
   border-radius: var(--border-radius);
   padding: calc(var(--dense-padding) * 0.4) var(--main-padding);
-  &:hover { opacity: 0.9; }
-  &:active { opacity: 0.8; }
+  &:hover {
+    opacity: 0.9;
+  }
+  &:active {
+    opacity: 0.8;
+  }
 
   &:focus {
     outline: none;
   }
   &.submit {
     background-color: #2040dd;
-    color: var(--text-color-bright)
+    color: var(--text-color-bright);
   }
 }
 
@@ -62,7 +70,6 @@ a {
   }
   &.item {
     color: unset;
-
   }
   &.button {
     font-size: 1.2rem;
@@ -75,9 +82,12 @@ a {
     border-radius: var(--border-radius);
     padding: calc(var(--dense-padding) * 0.4) var(--main-padding);
 
-    &:hover { opacity: 0.9; }
-    &:active { opacity: 0.8; }
-
+    &:hover {
+      opacity: 0.9;
+    }
+    &:active {
+      opacity: 0.8;
+    }
   }
   &.icon-button {
     font-size: 2.3rem;
@@ -88,11 +98,12 @@ a {
   }
 }
 
-input[type=text], textarea {
+input[type="text"],
+textarea {
   width: 100%;
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-  box-sizing: border-box;         /* Opera/IE 8+ */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
   resize: vertical;
 
   border-radius: var(--border-radius);
@@ -106,14 +117,25 @@ input[type=text], textarea {
   font-size: 1.2rem;
   font-weight: 600;
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     border: 2px solid #2040dd;
     outline: none;
   }
 }
 
-.blue { background-color: var(--blue) }
-.green { background-color: var(--green) }
-.yellow { background-color: var(--yellow) }
-.red { background-color: var(--red) }
-.dark { background-color: var(--dark) }
+.blue {
+  background-color: var(--blue);
+}
+.green {
+  background-color: var(--green);
+}
+.yellow {
+  background-color: var(--yellow);
+}
+.red {
+  background-color: var(--red);
+}
+.dark {
+  background-color: var(--dark);
+}

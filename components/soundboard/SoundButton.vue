@@ -1,5 +1,5 @@
 <template lang="pug">
-  button(:class="buttonColor" @click="playSound") {{ soundName }} {{buttonColor}}
+  button(:class="buttonColor" @click="playSound") {{ soundName }}
 </template>
 
 <script>
@@ -86,7 +86,7 @@ button {
   padding: var(--main-padding);
   font-size: 1rem;
   letter-spacing: 0.1rem;
-  font-weight: 500;
+  font-weight: 600;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
 
   @include phone-screen {
