@@ -10,8 +10,8 @@ export let sounds = [
   "20 Mins.mp3",
   "5 Mins Loudest.mp3",
   "5 Mins.mp3",
-  "EndRun Loudest.mp3",
-  "EndRun.mp3",
-  "HLSCooldown.mp3",
-  "RunComplete.mp3",
+  "Cooldown.mp3",
+  "End Run Loudest.mp3",
+  "End Run.mp3",
+  "Run Complete.mp3",
 ];
