@@ -1,1 +1,17 @@
-export let sounds = ['1 Min Loudest.mp3', '1 Min.mp3', '10 Mins Loudest.mp3', '10 Mins.mp3', '15 Mins Loudest.mp3', '15 Mins.mp3', '20 Mins Louder.mp3', '20 Mins Loudest.mp3', '20 Mins.mp3', '5 Mins Loudest.mp3', '5 Mins.mp3', 'EndRun Loudest.mp3', 'EndRun.mp3', 'HLSCooldown.mp3', 'RunComplete.mp3'];
+export let sounds = [
+  "1 Min Loudest.mp3",
+  "1 Min.mp3",
+  "10 Mins Loudest.mp3",
+  "10 Mins.mp3",
+  "15 Mins Loudest.mp3",
+  "15 Mins.mp3",
+  "20 Mins Louder.mp3",
+  "20 Mins Loudest.mp3",
+  "20 Mins.mp3",
+  "5 Mins Loudest.mp3",
+  "5 Mins.mp3",
+  "EndRun Loudest.mp3",
+  "EndRun.mp3",
+  "HLSCooldown.mp3",
+  "RunComplete.mp3",
+];
